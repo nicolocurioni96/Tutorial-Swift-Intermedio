@@ -11,6 +11,7 @@
 		A11DE2FB2AB7A1A600B268BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DE2FA2AB7A1A600B268BB /* ContentView.swift */; };
 		A11DE2FD2AB7A1A700B268BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */; };
 		A11DE3002AB7A1A700B268BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11DE2FF2AB7A1A700B268BB /* Preview Assets.xcassets */; };
+		A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DE3072AB7A2FC00B268BB /* Tuple e Set.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A11DE2FA2AB7A1A600B268BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A11DE2FF2AB7A1A700B268BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A11DE3072AB7A2FC00B268BB /* Tuple e Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuple e Set.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A11DE2F82AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift */,
 				A11DE2FA2AB7A1A600B268BB /* ContentView.swift */,
+				A11DE3062AB7A2C200B268BB /* 1 Tuple e Set */,
 				A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */,
 				A11DE2FE2AB7A1A700B268BB /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				A11DE2FF2AB7A1A700B268BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A11DE3062AB7A2C200B268BB /* 1 Tuple e Set */ = {
+			isa = PBXGroup;
+			children = (
+				A11DE3072AB7A2FC00B268BB /* Tuple e Set.swift */,
+			);
+			path = "1 Tuple e Set";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				A11DE2FB2AB7A1A600B268BB /* ContentView.swift in Sources */,
 				A11DE2F92AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift in Sources */,
+				A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
