@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct Tuple_e_Set: View {
+    /// `Tuple`
+    let httpStatusCode = (statusCode: 200, statusMessage: "Success ✅")
+    
+    /// `Set`
+    let colors = Set(["Red", "Green", "Blue", "Orange", "Pink"])
+    let duplicatedColors = Set(["Red", "Red", "Green", "Blue", "Blue", "Orange", "Pink"])
+    
+    
+    init() {
+        //print(colors) // Random order
+        print(duplicatedColors) // No copies or duplicates (i.e: "Red", "Red" ...)
+    }
+    
     var body: some View {
         VStack {
-            Text("Hello, World!")
+            Text("Hello, World, today's HTTP status code is: \n\nStatus Code 👉🏻 \(httpStatusCode.statusCode)\n\nStatus Message 👉🏻 \(httpStatusCode.statusMessage)!")
                 .padding()
         }
     }
