@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A102F16E2ABA35F100A72217 /* Funzioni.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102F16D2ABA35F100A72217 /* Funzioni.swift */; };
 		A11DE2F92AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DE2F82AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift */; };
 		A11DE2FB2AB7A1A600B268BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DE2FA2AB7A1A600B268BB /* ContentView.swift */; };
 		A11DE2FD2AB7A1A700B268BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A102F16D2ABA35F100A72217 /* Funzioni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funzioni.swift; sourceTree = "<group>"; };
 		A11DE2F52AB7A1A600B268BB /* Tutorial Swift Intermedio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial Swift Intermedio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11DE2F82AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_Swift_IntermedioApp.swift; sourceTree = "<group>"; };
 		A11DE2FA2AB7A1A600B268BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A102F16C2ABA35D000A72217 /* 3 Le Funzioni */ = {
+			isa = PBXGroup;
+			children = (
+				A102F16D2ABA35F100A72217 /* Funzioni.swift */,
+			);
+			path = "3 Le Funzioni";
+			sourceTree = "<group>";
+		};
 		A11DE2EC2AB7A1A600B268BB = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 				A11DE2F82AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift */,
 				A11DE2FA2AB7A1A600B268BB /* ContentView.swift */,
 				A11DE3062AB7A2C200B268BB /* 1 Tuple e Set */,
+				A102F16C2ABA35D000A72217 /* 3 Le Funzioni */,
 				A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */,
 				A11DE2FE2AB7A1A700B268BB /* Preview Content */,
 			);
@@ -151,6 +162,7 @@
 				A11DE2FB2AB7A1A600B268BB /* ContentView.swift in Sources */,
 				A11DE2F92AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift in Sources */,
 				A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */,
+				A102F16E2ABA35F100A72217 /* Funzioni.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
