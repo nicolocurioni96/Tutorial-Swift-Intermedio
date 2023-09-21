@@ -14,6 +14,7 @@
 		A11DE2FD2AB7A1A700B268BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */; };
 		A11DE3002AB7A1A700B268BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11DE2FF2AB7A1A700B268BB /* Preview Assets.xcassets */; };
 		A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DE3072AB7A2FC00B268BB /* Tuple e Set.swift */; };
+		A14496BC2ABC4BF300EC5CA5 /* Gli Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14496BB2ABC4BF300EC5CA5 /* Gli Optional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A11DE2FF2AB7A1A700B268BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A11DE3072AB7A2FC00B268BB /* Tuple e Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuple e Set.swift"; sourceTree = "<group>"; };
+		A14496BB2ABC4BF300EC5CA5 /* Gli Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gli Optional.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				A11DE3062AB7A2C200B268BB /* 1 Tuple e Set */,
 				A102F1672ABA345000A72217 /* 2 Dictionary */,
 				A102F16C2ABA35D000A72217 /* 3 Le Funzioni */,
+				A14496BA2ABC4BDF00EC5CA5 /* 4 Gli Optional */,
 				A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */,
 				A11DE2FE2AB7A1A700B268BB /* Preview Content */,
 			);
@@ -98,6 +101,14 @@
 				A11DE3072AB7A2FC00B268BB /* Tuple e Set.swift */,
 			);
 			path = "1 Tuple e Set";
+			sourceTree = "<group>";
+		};
+		A14496BA2ABC4BDF00EC5CA5 /* 4 Gli Optional */ = {
+			isa = PBXGroup;
+			children = (
+				A14496BB2ABC4BF300EC5CA5 /* Gli Optional.swift */,
+			);
+			path = "4 Gli Optional";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				A102F16B2ABA349500A72217 /* I Dictionary.swift in Sources */,
 				A11DE2FB2AB7A1A600B268BB /* ContentView.swift in Sources */,
 				A11DE2F92AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift in Sources */,
+				A14496BC2ABC4BF300EC5CA5 /* Gli Optional.swift in Sources */,
 				A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */,
 				A102F16E2ABA35F100A72217 /* Funzioni.swift in Sources */,
 			);
