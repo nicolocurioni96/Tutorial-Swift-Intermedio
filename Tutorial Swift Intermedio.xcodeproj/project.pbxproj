@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A102F16B2ABA349500A72217 /* I Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102F16A2ABA349500A72217 /* I Dictionary.swift */; };
 		A102F16E2ABA35F100A72217 /* Funzioni.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102F16D2ABA35F100A72217 /* Funzioni.swift */; };
+		A11BDBE72AC078CA00E59BC1 /* Le Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11BDBE62AC078CA00E59BC1 /* Le Enum.swift */; };
 		A11DE2F92AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DE2F82AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift */; };
 		A11DE2FB2AB7A1A600B268BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DE2FA2AB7A1A600B268BB /* ContentView.swift */; };
 		A11DE2FD2AB7A1A700B268BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		A102F16A2ABA349500A72217 /* I Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "I Dictionary.swift"; sourceTree = "<group>"; };
 		A102F16D2ABA35F100A72217 /* Funzioni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funzioni.swift; sourceTree = "<group>"; };
+		A11BDBE62AC078CA00E59BC1 /* Le Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Le Enum.swift"; sourceTree = "<group>"; };
 		A11DE2F52AB7A1A600B268BB /* Tutorial Swift Intermedio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tutorial Swift Intermedio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11DE2F82AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_Swift_IntermedioApp.swift; sourceTree = "<group>"; };
 		A11DE2FA2AB7A1A600B268BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 			path = "3 Le Funzioni";
 			sourceTree = "<group>";
 		};
+		A11BDBE52AC078B400E59BC1 /* 6 Le Enum */ = {
+			isa = PBXGroup;
+			children = (
+				A11BDBE62AC078CA00E59BC1 /* Le Enum.swift */,
+			);
+			path = "6 Le Enum";
+			sourceTree = "<group>";
+		};
 		A11DE2EC2AB7A1A600B268BB = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 				A102F16C2ABA35D000A72217 /* 3 Le Funzioni */,
 				A14496BA2ABC4BDF00EC5CA5 /* 4 Gli Optional */,
 				A121ACC62AC06E4C00B89E5B /* 5 Classi e Strutture */,
+				A11BDBE52AC078B400E59BC1 /* 6 Le Enum */,
 				A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */,
 				A11DE2FE2AB7A1A700B268BB /* Preview Content */,
 			);
@@ -198,6 +209,7 @@
 				A11DE2F92AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift in Sources */,
 				A14496BC2ABC4BF300EC5CA5 /* Gli Optional.swift in Sources */,
 				A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */,
+				A11BDBE72AC078CA00E59BC1 /* Le Enum.swift in Sources */,
 				A102F16E2ABA35F100A72217 /* Funzioni.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
