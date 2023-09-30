@@ -18,6 +18,7 @@
 		A121ACC82AC06E6A00B89E5B /* Classi e Strutture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121ACC72AC06E6A00B89E5B /* Classi e Strutture.swift */; };
 		A14496BC2ABC4BF300EC5CA5 /* Gli Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14496BB2ABC4BF300EC5CA5 /* Gli Optional.swift */; };
 		A17BC2762AC35C5C00ACECF0 /* Gli Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17BC2752AC35C5C00ACECF0 /* Gli Switch.swift */; };
+		A1E059D22AC86F7F00B91B51 /* Le Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E059D12AC86F7F00B91B51 /* Le Macro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		A121ACC72AC06E6A00B89E5B /* Classi e Strutture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classi e Strutture.swift"; sourceTree = "<group>"; };
 		A14496BB2ABC4BF300EC5CA5 /* Gli Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gli Optional.swift"; sourceTree = "<group>"; };
 		A17BC2752AC35C5C00ACECF0 /* Gli Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gli Switch.swift"; sourceTree = "<group>"; };
+		A1E059D12AC86F7F00B91B51 /* Le Macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Le Macro.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				A121ACC62AC06E4C00B89E5B /* 5 Classi e Strutture */,
 				A11BDBE52AC078B400E59BC1 /* 6 Le Enum */,
 				A17BC2742AC35C4500ACECF0 /* 7 Gli Switch */,
+				A1E059D02AC86F6800B91B51 /* 8 Le Macro */,
 				A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */,
 				A11DE2FE2AB7A1A700B268BB /* Preview Content */,
 			);
@@ -142,6 +145,14 @@
 				A17BC2752AC35C5C00ACECF0 /* Gli Switch.swift */,
 			);
 			path = "7 Gli Switch";
+			sourceTree = "<group>";
+		};
+		A1E059D02AC86F6800B91B51 /* 8 Le Macro */ = {
+			isa = PBXGroup;
+			children = (
+				A1E059D12AC86F7F00B91B51 /* Le Macro.swift */,
+			);
+			path = "8 Le Macro";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 				A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */,
 				A17BC2762AC35C5C00ACECF0 /* Gli Switch.swift in Sources */,
 				A11BDBE72AC078CA00E59BC1 /* Le Enum.swift in Sources */,
+				A1E059D22AC86F7F00B91B51 /* Le Macro.swift in Sources */,
 				A102F16E2ABA35F100A72217 /* Funzioni.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
