@@ -17,6 +17,7 @@
 		A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11DE3072AB7A2FC00B268BB /* Tuple e Set.swift */; };
 		A121ACC82AC06E6A00B89E5B /* Classi e Strutture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121ACC72AC06E6A00B89E5B /* Classi e Strutture.swift */; };
 		A14496BC2ABC4BF300EC5CA5 /* Gli Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14496BB2ABC4BF300EC5CA5 /* Gli Optional.swift */; };
+		A17BC2762AC35C5C00ACECF0 /* Gli Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17BC2752AC35C5C00ACECF0 /* Gli Switch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		A11DE3072AB7A2FC00B268BB /* Tuple e Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuple e Set.swift"; sourceTree = "<group>"; };
 		A121ACC72AC06E6A00B89E5B /* Classi e Strutture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classi e Strutture.swift"; sourceTree = "<group>"; };
 		A14496BB2ABC4BF300EC5CA5 /* Gli Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gli Optional.swift"; sourceTree = "<group>"; };
+		A17BC2752AC35C5C00ACECF0 /* Gli Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gli Switch.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				A14496BA2ABC4BDF00EC5CA5 /* 4 Gli Optional */,
 				A121ACC62AC06E4C00B89E5B /* 5 Classi e Strutture */,
 				A11BDBE52AC078B400E59BC1 /* 6 Le Enum */,
+				A17BC2742AC35C4500ACECF0 /* 7 Gli Switch */,
 				A11DE2FC2AB7A1A700B268BB /* Assets.xcassets */,
 				A11DE2FE2AB7A1A700B268BB /* Preview Content */,
 			);
@@ -131,6 +134,14 @@
 				A14496BB2ABC4BF300EC5CA5 /* Gli Optional.swift */,
 			);
 			path = "4 Gli Optional";
+			sourceTree = "<group>";
+		};
+		A17BC2742AC35C4500ACECF0 /* 7 Gli Switch */ = {
+			isa = PBXGroup;
+			children = (
+				A17BC2752AC35C5C00ACECF0 /* Gli Switch.swift */,
+			);
+			path = "7 Gli Switch";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +220,7 @@
 				A11DE2F92AB7A1A600B268BB /* Tutorial_Swift_IntermedioApp.swift in Sources */,
 				A14496BC2ABC4BF300EC5CA5 /* Gli Optional.swift in Sources */,
 				A11DE3082AB7A2FC00B268BB /* Tuple e Set.swift in Sources */,
+				A17BC2762AC35C5C00ACECF0 /* Gli Switch.swift in Sources */,
 				A11BDBE72AC078CA00E59BC1 /* Le Enum.swift in Sources */,
 				A102F16E2ABA35F100A72217 /* Funzioni.swift in Sources */,
 			);
